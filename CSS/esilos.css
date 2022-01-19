@@ -62,9 +62,22 @@ video{
     opacity: 0.3;
     mix-blend-mode: overlay;
 }
-.posicion{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.transicion{
+    /* border-radius: 50%; */
+    transition: 0.4s linear;
+}
+.transicion:hover{
+    box-shadow: 0 .5rem 1rem rgb(56, 56, 56)!important;
+    padding: auto;
+
+}
+.zoom {
+    transition: transform .5s;
+  }
+  
+  .zoom:hover {
+    /* box-shadow: 0px 15px 10px -10px rgb(0, 0, 0);  */
+
+    transform: scale(1.3); 
 }
