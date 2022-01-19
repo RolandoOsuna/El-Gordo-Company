@@ -1,0 +1,8 @@
+.bg-header{
+    background: rgb(125,125,125);
+    background: radial-gradient(circle, rgba(125,125,125,1) 0%, rgba(65,63,63,1) 100%);
+    height: 100vh;
+}
+.margen{
+    margin-left: 0.1px;
+}
